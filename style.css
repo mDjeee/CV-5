@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.page {
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2);
+    background-color: #f5f5f5;
+}
+.head {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+}
+.head img {
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+}
+.name {
+    position: absolute;
+    bottom: 50px;
+    left: 400px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.job {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding-left: 20px;
+    bottom: -30px;
+    height: 60px;
+    left: 400px;
+    width: 800px;
+    background-color: #181414;
+    color: #a5a1a1;
+    font-size: 32px;
+    font-weight: 400;
+}
+.main {
+    margin-top: 50px;
+    margin: 20px;
+    display: flex;
+    border-bottom: 5px solid #181414;
+}
+.experience {
+    width: 50%;
+    margin-left: 20px;
+}
+.education {
+    width: 50%;
+    margin-right: 20px;
+}
+.education, .experience, .skills, .contacts, .languages .skill{
+    margin-left: 40px;
+}
+.theme {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #181414;
+}
+.duration {
+    color: #a5a1a1;
+    font-weight: 400;
+}
+.work {
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.position {
+    color: #a5a1a1;
+    font-weight: 500;
+    margin-top: 0;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.course {
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.course-duration {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color:#a5a1a1;
+    margin-left: 20px;
+}
+.contact-link {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contacts img {
+    width: 40px;
+    margin: 20px;
+    filter: invert(40%);
+}
+.footer {
+    display: flex;
+    margin: 20px;
+    border-bottom: 5px solid #181414;
+
+}
+.contacts {
+    width: 30%;
+}
+.language {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #181414;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.level {
+    text-transform: uppercase;
+    color: #a5a1a1;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.skill p {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+    color: #a5a1a1;
+    margin-right: 40px;
+    line-height: 36px;
+}
+.rsschool {
+    width: 300px;
+}
+.rsschool img {
+    position: relative;
+    right: -870px;
+}
